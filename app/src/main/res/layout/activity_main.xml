@@ -4,17 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:onClick="goToNaver"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/btnLogout"
         android:layout_width="0dp"
         android:layout_height="80dp"
-        android:layout_marginTop="260dp"
-        android:background="#FFC107"
-        android:text="전화걸기"
-        android:textColor="#FFFFFF"
+        android:layout_marginTop="168dp"
+        android:text="로그아웃"
         android:textSize="30sp"
         app:backgroundTint="#FF5722"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,14 +23,13 @@
         android:id="@+id/btnNaver"
         android:layout_width="0dp"
         android:layout_height="80dp"
-        android:layout_marginTop="128dp"
+        android:layout_marginTop="120dp"
         android:onClick="goToNaver"
         android:text="네이버 접속"
-        android:textColor="#FFFFFF"
         android:textSize="30sp"
-        app:backgroundTint="#8DD638"
+        app:backgroundTint="#52CC1E"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -41,10 +37,8 @@
         android:id="@+id/btnTel"
         android:layout_width="0dp"
         android:layout_height="80dp"
-        android:layout_marginTop="48dp"
-        android:background="#FFC107"
+        android:layout_marginTop="40dp"
         android:text="전화걸기"
-        android:textColor="#FFFFFF"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -60,7 +54,6 @@
         app:layout_constraintBottom_toTopOf="@+id/btnNaver"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.51" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

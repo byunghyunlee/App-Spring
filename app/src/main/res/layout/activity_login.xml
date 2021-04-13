@@ -63,6 +63,7 @@
             android:layout_weight="1"
             android:gravity="center_vertical"
             android:hint="암호를 입력해 주세요"
+            android:inputType="textPassword"
             android:textSize="24sp" />
     </LinearLayout>
 
